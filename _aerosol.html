@@ -1,0 +1,330 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>ES-DOC - Specialization</title>
+        <link href="media/app/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="media/ext/bootstrap-3.3.6/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="media/app/css/header.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="media/app/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    <header class="clearfix main">
+        <img alt="Earth System Documentation" class="pull-left" src="media/app/img/logo-1.png" title="Earth System Documentation" />
+        <h1 class="pull-right">
+            <small><b>Specializations Viewer</b>
+            </small>
+            <b class="h6"> v0.9.7.5</b>
+            <button class="esdoc-support btn btn-success">Support</button>
+        </h1>
+    </header>
+    <article id="cmip6.aerosol">
+    <header>
+        <h2 class="bg-primary">CMIP6 Aerosol Specializations</h2>
+    </header>
+<section id="cmip6.aerosol.grid">
+    <header>
+        <h3 class="bg-primary">Grid</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</section><section id="cmip6.aerosol.key_properties">
+    <header>
+        <h3 class="bg-primary">Key Properties</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td class="prop-name">Scheme Scope</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="troposhere">troposhere</option><option title="stratosphere">stratosphere</option><option title="mesosphere">mesosphere</option><option title="mesosphere">mesosphere</option><option title="whole atmosphere">whole atmosphere</option></select></td>
+</tr><tr>
+    <td class="prop-name">Basic Approximations</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Prognostic Variables Form</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="3D mass/volume ratio for aerosols">3D mass/volume ratio for aerosols</option><option title="3D number concenttration for aerosols">3D number concenttration for aerosols</option></select></td>
+</tr><tr>
+    <td class="prop-name">Number Of Tracers</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Family Approach</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">bool</td>
+</tr><tr>
+    <td class="prop-name">Timestep Framework --&gt; Method</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Uses atmospheric chemistry time stepping">Uses atmospheric chemistry time stepping</option><option title="Specific timestepping (operator splitting)">Specific timestepping (operator splitting)</option><option title="Specific timestepping (integrated)">Specific timestepping (integrated)</option></select></td>
+</tr><tr>
+    <td class="prop-name">Timestep Framework --&gt; Split Operator Advection Timestep</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Timestep Framework --&gt; Split Operator Physical Timestep</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Timestep Framework --&gt; Integrated Timestep</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Timestep Framework --&gt; Integrated Scheme Type</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Explicit">Explicit</option><option title="Implicit">Implicit</option><option title="Semi-implicit">Semi-implicit</option><option title="Semi-analytic">Semi-analytic</option><option title="Impact solver">Impact solver</option><option title="Back Euler">Back Euler</option><option title="Newton Raphson">Newton Raphson</option><option title="Rosenbrock">Rosenbrock</option></select></td>
+</tr><tr>
+    <td class="prop-name">Meteorological Forcings --&gt; Variables 3D</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Meteorological Forcings --&gt; Variables 2D</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Meteorological Forcings --&gt; Frequency</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Resolution --&gt; Name</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Resolution --&gt; Canonical Horizontal Resolution</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Resolution --&gt; Number Of Horizontal Gridpoints</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Resolution --&gt; Number Of Vertical Levels</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">int</td>
+</tr><tr>
+    <td class="prop-name">Resolution --&gt; Is Adaptive Grid</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">bool</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Description</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Global Mean Metrics Used</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Regional Metrics Used</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Tuning Applied --&gt; Trend Metrics Used</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof">str</td>
+</tr></tbody>
+    </table>
+</section><section id="cmip6.aerosol.transport">
+    <header>
+        <h3 class="bg-primary">Transport</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td class="prop-name">Scheme</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Uses Atmospheric chemistry transport scheme">Uses Atmospheric chemistry transport scheme</option><option title="Specific transport scheme (eulerian)">Specific transport scheme (eulerian)</option><option title="Specific transport scheme (semi-lagrangian)">Specific transport scheme (semi-lagrangian)</option><option title="Specific transport scheme (eulerian and semi-lagrangian)">Specific transport scheme (eulerian and semi-lagrangian)</option><option title="Specific transport scheme (lagrangian)">Specific transport scheme (lagrangian)</option></select></td>
+</tr><tr>
+    <td class="prop-name">Mass Conservation Scheme</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Uses Atmospheric chemistry transport scheme">Uses Atmospheric chemistry transport scheme</option><option title="Mass adjustment">Mass adjustment</option><option title="Concentrations positivity">Concentrations positivity</option><option title="Gradients monotonicity">Gradients monotonicity</option></select></td>
+</tr><tr>
+    <td class="prop-name">Convention Scheme</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Uses Atmospheric chemistry transport scheme">Uses Atmospheric chemistry transport scheme</option><option title="Convective fluxes connected to tracers">Convective fluxes connected to tracers</option><option title="Vertical velocities connected to tracers">Vertical velocities connected to tracers</option></select></td>
+</tr><tr>
+    <td class="prop-name">Turbulence --&gt; Method</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Uses Atmospheric chemistry turbulence scheme">Uses Atmospheric chemistry turbulence scheme</option><option title="Specific turbulence scheme">Specific turbulence scheme</option></select></td>
+</tr><tr>
+    <td class="prop-name">Turbulence --&gt; Specific Scheme</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr></tbody>
+    </table>
+</section><section id="cmip6.aerosol.emissions_concentrations">
+    <header>
+        <h3 class="bg-primary">Emissions Concentrations</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td class="prop-name">Surface Emissions --&gt; Method</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Prescribed (climatology)">Prescribed (climatology)</option><option title="Prescribe (spatially uniform)">Prescribe (spatially uniform)</option><option title="Interactive">Interactive</option></select></td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Sources</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Vegetation">Vegetation</option><option title="Bare ground">Bare ground</option><option title="Sea surface">Sea surface</option><option title="Anthropogenic">Anthropogenic</option></select></td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Prescribed Climatology</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Constant">Constant</option><option title="Interannual">Interannual</option><option title="Annual">Annual</option><option title="Monthly">Monthly</option><option title="Daily">Daily</option></select></td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Prescribed Climatology Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Prescribed Spatially Uniform Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Interactive Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Other Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Other Method Characteristics</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Method</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Prescribed (climatology)">Prescribed (climatology)</option><option title="Prescribe (spatially uniform)">Prescribe (spatially uniform)</option><option title="Interactive">Interactive</option></select></td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Sources</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Aircraft">Aircraft</option><option title="Biomass burning">Biomass burning</option><option title="Lightning">Lightning</option><option title="Volcanos">Volcanos</option></select></td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Prescribed Climatology</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Constant">Constant</option><option title="Interannual">Interannual</option><option title="Annual">Annual</option><option title="Monthly">Monthly</option><option title="Daily">Daily</option></select></td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Prescribed Climatology Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Prescribed Spatially Uniform Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Interactive Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Other Emitted Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Other Method Characteristics</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Concentrations --&gt; Prescribed Lower Boundary</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Concentrations --&gt; Prescribed Upper Boundary</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr></tbody>
+    </table>
+</section><section id="cmip6.aerosol.model">
+    <header>
+        <h3 class="bg-primary">Model</h3>
+    </header>
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+            <tr>
+                <th class="prop-name">Property Long Name</th>
+                <th class="prop-cardinality">Cardinality</th>
+                <th class="prop-typeof">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+    <td class="prop-name">Processes</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Dry deposition">Dry deposition</option><option title="Sedimentation">Sedimentation</option><option title="Wet deposition (impaction scavenging)">Wet deposition (impaction scavenging)</option><option title="Wet deposition (nucleation scavenging)">Wet deposition (nucleation scavenging)</option><option title="Coagulation">Coagulation</option><option title="Oxidation (gas phase)">Oxidation (gas phase)</option><option title="Oxidation (in cloud)">Oxidation (in cloud)</option><option title="Condensation">Condensation</option><option title="Ageing">Ageing</option><option title="Advection (horizontal)">Advection (horizontal)</option><option title="Advection (vertical)">Advection (vertical)</option><option title="Heterogeneous chemistry">Heterogeneous chemistry</option></select></td>
+</tr><tr>
+    <td class="prop-name">Coupling</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Radiation">Radiation</option><option title="Land surface">Land surface</option><option title="Heterogeneous chemistry">Heterogeneous chemistry</option><option title="Clouds">Clouds</option></select></td>
+</tr><tr>
+    <td class="prop-name">Gas Phase Precursors</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="DMS">DMS</option><option title="SO2">SO2</option><option title="Ammonia">Ammonia</option><option title="Iodene">Iodene</option><option title="Terpene">Terpene</option><option title="Isoprene">Isoprene</option></select></td>
+</tr><tr>
+    <td class="prop-name">Scheme Type</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Bulk">Bulk</option><option title="Modal">Modal</option><option title="Bin">Bin</option></select></td>
+</tr><tr>
+    <td class="prop-name">Bulk Scheme Species</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Sulphate">Sulphate</option><option title="Nitrate">Nitrate</option><option title="Sea salt">Sea salt</option><option title="Dust">Dust</option><option title="Ice">Ice</option><option title="Organic">Organic</option><option title="Black carbon / soot">Black carbon / soot</option><option title="SOA (secondary organic aerosols)">SOA (secondary organic aerosols)</option><option title="POM (particulate organic matter)">POM (particulate organic matter)</option><option title="Polar stratospheric ice">Polar stratospheric ice</option><option title="NAT (Nitric acid trihydrate)">NAT (Nitric acid trihydrate)</option><option title="NAD (Nitric acid dihydrate)">NAD (Nitric acid dihydrate)</option><option title="STS (supercooled ternary solution aerosol particule)">STS (supercooled ternary solution aerosol particule)</option></select></td>
+</tr><tr>
+    <td class="prop-name">Model Scheme Framework</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Single moment">Single moment</option><option title="Microphysical">Microphysical</option></select></td>
+</tr><tr>
+    <td class="prop-name">Model Scheme Species</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Sulphate">Sulphate</option><option title="Nitrate">Nitrate</option><option title="Sea salt">Sea salt</option><option title="Dust">Dust</option><option title="Ice">Ice</option><option title="Organic">Organic</option><option title="Black carbon / soot">Black carbon / soot</option><option title="SOA (secondary organic aerosols)">SOA (secondary organic aerosols)</option><option title="POM (particulate organic matter)">POM (particulate organic matter)</option><option title="Polar stratospheric ice">Polar stratospheric ice</option><option title="NAT (Nitric acid trihydrate)">NAT (Nitric acid trihydrate)</option><option title="NAD (Nitric acid dihydrate)">NAD (Nitric acid dihydrate)</option><option title="STS (supercooled ternary solution aerosol particule)">STS (supercooled ternary solution aerosol particule)</option></select></td>
+</tr><tr>
+    <td class="prop-name">Bin Scheme Framework</td>
+    <td class="prop-cardinality">1.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Single moment">Single moment</option><option title="Microphysical">Microphysical</option></select></td>
+</tr><tr>
+    <td class="prop-name">Bin Scheme Species</td>
+    <td class="prop-cardinality">1.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Sulphate">Sulphate</option><option title="Nitrate">Nitrate</option><option title="Sea salt">Sea salt</option><option title="Dust">Dust</option><option title="Ice">Ice</option><option title="Organic">Organic</option><option title="Black carbon / soot">Black carbon / soot</option><option title="SOA (secondary organic aerosols)">SOA (secondary organic aerosols)</option><option title="POM (particulate organic matter)">POM (particulate organic matter)</option><option title="Polar stratospheric ice">Polar stratospheric ice</option><option title="NAT (Nitric acid trihydrate)">NAT (Nitric acid trihydrate)</option><option title="NAD (Nitric acid dihydrate)">NAD (Nitric acid dihydrate)</option><option title="STS (supercooled ternary solution aerosol particule)">STS (supercooled ternary solution aerosol particule)</option></select></td>
+</tr><tr>
+    <td class="prop-name">Classification Framework</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Single moment">Single moment</option><option title="Microphysical">Microphysical</option></select></td>
+</tr><tr>
+    <td class="prop-name">Classification Framework Characterisitics</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof">str</td>
+</tr><tr>
+    <td class="prop-name">Classification Framework Species</td>
+    <td class="prop-cardinality">0.1</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Sulphate">Sulphate</option><option title="Nitrate">Nitrate</option><option title="Sea salt">Sea salt</option><option title="Dust">Dust</option><option title="Ice">Ice</option><option title="Organic">Organic</option><option title="Black carbon / soot">Black carbon / soot</option><option title="SOA (secondary organic aerosols)">SOA (secondary organic aerosols)</option><option title="POM (particulate organic matter)">POM (particulate organic matter)</option><option title="Polar stratospheric ice">Polar stratospheric ice</option><option title="NAT (Nitric acid trihydrate)">NAT (Nitric acid trihydrate)</option><option title="NAD (Nitric acid dihydrate)">NAD (Nitric acid dihydrate)</option><option title="STS (supercooled ternary solution aerosol particule)">STS (supercooled ternary solution aerosol particule)</option></select></td>
+</tr></tbody>
+    </table>
+</section></article></body>
+</html>
