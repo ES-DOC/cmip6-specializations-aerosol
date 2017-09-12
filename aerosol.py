@@ -42,14 +42,14 @@ CHANGE_HISTORY = [
 DESCRIPTION = 'Atmospheric aerosols realm'
 
 # --------------------------------------------------------------------
-# GRID: The grid used to layout the variables
-# --------------------------------------------------------------------
-GRID = 'aerosol_grid'
-
-# --------------------------------------------------------------------
 # KEY PROPERTIES: Key properties (differing from defaults (grid, timestep etc))
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'aerosol_key_properties'
+
+# --------------------------------------------------------------------
+# GRID: The grid used to layout the variables
+# --------------------------------------------------------------------
+GRID = 'aerosol_grid'
 
 # --------------------------------------------------------------------
 # PROCESSES: Simulated processes
