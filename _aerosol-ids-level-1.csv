@@ -18,3 +18,4 @@ cmip6.aerosol.emissions_concentrations.atmospheric_emissions, Aerosol > Emission
 cmip6.aerosol.emissions_concentrations.concentrations, Aerosol > Emissions Concentrations > Concentrations, subprocess
 , , 
 cmip6.aerosol.model, Aerosol > Model, process
+cmip6.aerosol.model.optical_radiative_properties, Aerosol > Model > Optical Radiative Properties, subprocess
