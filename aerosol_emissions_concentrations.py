@@ -35,6 +35,14 @@ DESCRIPTION = 'Atmospheric aerosol emissions'
 # PROCESS: top level
 # --------------------------------------------------------------------
 
+DETAILS['toplevel'] = {
+    'description': 'Properties of land surface snow scheme',
+    'properties': [
+        ('overview', 'str', '1.1',
+             'Overview of emissions in atmosperic aerosol model'),
+    ],
+}
+
 # --------------------------------------------------------------------
 # SUB-PROCESS: Emissions
 # --------------------------------------------------------------------
@@ -42,21 +50,21 @@ DETAILS['emissions'] = {
     'description': 'TO DO',
     'properties': [
         ('method', 'ENUM:emissions_methods', '0.N',
-            'Method used to define aerosol species emitted at the surface (several methods allowed because the different species may not use the same method).'),
+            'Method used to define aerosol species (several methods allowed because the different species may not use the same method).'),
         ('sources', 'ENUM:surface_source_types', '0.N',
-             'Sources of the aerosol species emitted at the surface that are taken into account in the emissions scheme'),
+             'Sources of the aerosol species are taken into account in the emissions scheme'),
         ('prescribed_climatology', 'ENUM:prescribed_climatology_type', '0.1',
-            'Specify the climatology type for aerosol emissions prescribed at the surface'),
+            'Specify the climatology type for aerosol emissions'),
         ('prescribed_climatology_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted at the surface and prescribed via a climatology'),
+             'List of aerosol species emitted and prescribed via a climatology'),
         ('prescribed_spatially_uniform_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted at the surface and prescribed as spatially uniform'),
+             'List of aerosol species emitted  and prescribed as spatially uniform'),
         ('interactive_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted at the surface and specified via an interactive method'),
+             'List of aerosol species emitted and specified via an interactive method'),
         ('other_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted at the surface and specified via an "other method"'),
+             'List of aerosol species emitted and specified via an "other method"'),
         ('other_method_characteristics', 'str', '0.1',
-             'Characteristics of the "other method" used for aerosol emissions at the surface'),
+             'Characteristics of the "other method" used for aerosol emissions'),
     ],
 }
 

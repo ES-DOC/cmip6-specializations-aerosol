@@ -1,0 +1,29 @@
+{
+    "AUTHORS": [
+        "David Hassell"
+    ],
+    "CHANGE_HISTORY": [
+        ["0.1.0", "2017-12-18", "David Hassell", "Initialised"]
+    ],
+    "CONTACT": "David Hassell",
+    "CONTRIBUTORS": [
+    ],
+    "LABEL": "Main",
+    "PROPERTIES": [
+        ["cmip6.land.key_properties.toplevel.model_name", 1],
+        ["cmip6.land.key_properties.toplevel.family_approach", 1],
+        ["cmip6.land.transport.scheme", 1],
+	["cmip6.land.transport.convention", 1],
+        ["cmip6.land.emissions.emissions.method", 1],
+	["cmip6.land.emissions.concentrations.prescribed_lower_boundary", 1],
+	["cmip6.land.emissions.concentrations.prescribed_upper_boundary", 1],
+	["cmip6.land.model.toplevel.processes", 1],
+	["cmip6.land.model.toplevel.scheme_type", 1],
+	["cmip6.land.model.optical_radtiative_properties.mixtures.external", 1],
+	["cmip6.land.model.optical_radtiative_properties.mixtures.internal", 1],
+	["cmip6.land.model.optical_radtiative_properties.impact_of_h20.internal_mixture", 1],
+	["cmip6.land.model.optical_radtiative_properties.radiative_scheme.shortwave_bands", 1],
+	["cmip6.land.model.optical_radtiative_properties.radiative_scheme.longwave_bands", 1]
+    ],
+    "QC_STATUS": "draft"
+}

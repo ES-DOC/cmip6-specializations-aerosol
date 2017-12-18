@@ -37,6 +37,8 @@ DESCRIPTION = 'Aerosol transport'
 DETAILS['toplevel'] = {
     'description': 'Top level aerosol transport properties',
     'properties': [
+        ('overview', 'str', '1.1',
+             'Overview of transport in atmosperic aerosol model'),
         ('scheme', 'ENUM:transport_schemes', '1.1',
             'Method for aerosol transport modeling'),
         ('mass_conservation_scheme', 'ENUM:mass_conservation_methods', '1.N',
