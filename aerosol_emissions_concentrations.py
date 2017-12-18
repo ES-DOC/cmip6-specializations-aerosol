@@ -14,7 +14,7 @@ ENUMERATIONS = OrderedDict()
 # --------------------------------------------------------------------
 # CONTACT: Set to specialization co-ordinator.
 # --------------------------------------------------------------------
-CONTACT = 'Charlotte Pascoe, David Hassell'
+CONTACT = 'David Hassell'
 
 # --------------------------------------------------------------------
 # AUTHORS: Set to specialization authors (comma delimited).
@@ -29,16 +29,16 @@ QC_STATUS = 'draft'
 # --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
-DESCRIPTION = 'Atmospheric aerosol transport'
+DESCRIPTION = 'Atmospheric aerosol emissions'
 
 # --------------------------------------------------------------------
 # PROCESS: top level
 # --------------------------------------------------------------------
 
 # --------------------------------------------------------------------
-# SUB-PROCESS: Surface emissions
+# SUB-PROCESS: Emissions
 # --------------------------------------------------------------------
-DETAILS['surface_emissions'] = {
+DETAILS['emissions'] = {
     'description': 'TO DO',
     'properties': [
         ('method', 'ENUM:emissions_methods', '0.N',
@@ -61,32 +61,6 @@ DETAILS['surface_emissions'] = {
 }
 
 # --------------------------------------------------------------------
-# SUB-PROCESS: Atmospheric emissions
-# --------------------------------------------------------------------
-DETAILS['atmospheric_emissions'] = {
-    'description': 'TO DO',
-    'properties': [
-        ('method', 'ENUM:emissions_methods', '0.N',
-            'Method used to define the aerosol species emitted in the atmosphere (several methods allowed because the different species may not use the same method).'),
-        ('sources', 'ENUM:atmospheric_source_types', '0.N',
-             'Sources of aerosol species emitted in the atmosphere that are taken into account in the emissions scheme.'),
-        ('prescribed_climatology', 'ENUM:prescribed_climatology_type', '0.1',
-            'Specify the climatology type for aerosol emissions prescribed in the atmosphere.'),
-        ('prescribed_climatology_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted in the atmosphere and prescribed via a climatology'),
-        ('prescribed_spatially_uniform_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted in the atmosphere and prescribed as spatially uniform'),
-        ('interactive_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted in the atmosphere and specified via an interactive method'),
-        ('other_emitted_species', 'str', '0.1',
-             'List of aerosol species emitted in the atmosphere and specified via an "other method"'),
-        ('other_method_characteristics', 'str', '0.1',
-             'Characteristics of the "other method" used for aerosol emissions in the atmosphere'),
-        
-    ],
-}
-
-# --------------------------------------------------------------------
 # SUB-PROCESS: Concentrations
 # --------------------------------------------------------------------
 DETAILS['concentrations'] = {
@@ -96,6 +70,10 @@ DETAILS['concentrations'] = {
             'List of species prescribed at the lower boundary.'),
         ('prescribed_upper_boundary', 'str', '0.1',
             'List of species prescribed at the upper boundary.'),
+        ('prescribed_fields_mmr', 'str', '0.1',
+            'List of species prescribed as mass mixing ratios.'),
+        ('prescribed_fields_mmr', 'str', '0.1',
+            'List of species prescribed as AOD plus CCNs.'),
     ],
 }
 
@@ -119,8 +97,12 @@ ENUMERATIONS['surface_source_types'] = {
     'is_open': True,
     'members':[
         ('Vegetation', None),
+        ('Volcanos', None),
         ('Bare ground', None),
         ('Sea surface', None),
+        ('Lightning', None),
+        ('Fires', None),
+        ('Aircraft', None),
         ('Anthropogenic', None),
     ]
 }
@@ -140,8 +122,11 @@ ENUMERATIONS['emissions_methods'] = {
     'description': 'Method used to define aerosol species emitted (several methods allowed because the different species may not use the same method).',
     'is_open': True,
     'members':[
+        ('None', None),
         ('Prescribed (climatology)', None),
-        ('Prescribe (spatially uniform)', None),
+        ('Prescribed CMIP6', None),
+        ('Prescribed above surface', None),
         ('Interactive', None),
+        ('Interactive above surface', None),
     ]
 }
