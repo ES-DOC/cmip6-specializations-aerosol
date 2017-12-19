@@ -820,9 +820,9 @@
         "contact": "Charlotte Pascoe, David Hassell", 
         "properties": [
             {
-                "label": "Overview", 
+                "label": "Model Overview", 
                 "description": "Overview of aerosol model.", 
-                "id": "cmip6.aerosol.key_properties.overview", 
+                "id": "cmip6.aerosol.key_properties.model_overview", 
                 "cardinality": "1.1", 
                 "type": "str", 
                 "uiOrdinal": 1

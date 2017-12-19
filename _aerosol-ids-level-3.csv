@@ -1,5 +1,5 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.aerosol.key_properties.overview, Aerosol > Key Properties > Overview, property
+cmip6.aerosol.key_properties.model_overview, Aerosol > Key Properties > Model Overview, property
 cmip6.aerosol.key_properties.model_name, Aerosol > Key Properties > Model Name, property
 cmip6.aerosol.key_properties.scheme_scope, Aerosol > Key Properties > Scheme Scope, property
 cmip6.aerosol.key_properties.basic_approximations, Aerosol > Key Properties > Basic Approximations, property
