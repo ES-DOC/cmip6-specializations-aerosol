@@ -1846,98 +1846,98 @@
         <dt><b>Description</b></dt><dd>Number of longwave bands</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.model.optical_radiative_properties.cloud_interactions.longwave_bands</dd>
     </dl>
   </body>
-</html></richcontent></node></node></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="SHORT TABLES"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="aerosol"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.key_properties.toplevel.model_name"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node></node></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="SHORT TABLES"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="aerosol"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.key_properties.model_name"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.key_properties.toplevel.family_approach"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.key_properties.family_approach"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.transport.scheme"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.transport.scheme"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.transport.convention"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.transport.convention"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.emissions.emissions.method"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.emissions_concentrations.emissions.method"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.emissions.concentrations.prescribed_lower_boundary"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.emissions_concentrations.concentrations.prescribed_lower_boundary"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.emissions.concentrations.prescribed_upper_boundary"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.emissions_concentrations.concentrations.prescribed_upper_boundary"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.toplevel.processes"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.processes"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.toplevel.scheme_type"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.scheme_type"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.optical_radtiative_properties.mixtures.external"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.optical_radiative_properties.mixtures.external"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.optical_radtiative_properties.mixtures.internal"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.optical_radiative_properties.mixtures.internal"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.optical_radtiative_properties.impact_of_h20.internal_mixture"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.optical_radiative_properties.impact_of_h2o.internal_mixture"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.optical_radtiative_properties.radiative_scheme.shortwave_bands"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.optical_radiative_properties.radiative_scheme.shortwave_bands"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.land.model.optical_radtiative_properties.radiative_scheme.longwave_bands"><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.aerosol.model.optical_radiative_properties.radiative_scheme.longwave_bands"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
