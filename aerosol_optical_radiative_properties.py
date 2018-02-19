@@ -81,7 +81,9 @@ DETAILS['impact_of_h2o'] = {
         ('size', 'bool', '1.1',
             'Does H2O impact size?'),
         ('internal_mixture', 'bool', '1.1',
-            'Does H2O impact internal mixture?'),
+            'Does H2O impact aerosol internal mixture?'),
+        ('external_mixture', 'bool', '1.1',
+            'Does H2O impact aerosol external mixture?'),
     ],
 }
 

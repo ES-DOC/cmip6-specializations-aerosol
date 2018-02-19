@@ -434,11 +434,19 @@
                         }, 
                         {
                             "label": "Internal Mixture", 
-                            "description": "Does H2O impact internal mixture?", 
+                            "description": "Does H2O impact aerosol internal mixture?", 
                             "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture", 
                             "cardinality": "1.1", 
                             "type": "bool", 
                             "uiOrdinal": 2
+                        }, 
+                        {
+                            "label": "External Mixture", 
+                            "description": "Does H2O impact aerosol external mixture?", 
+                            "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture", 
+                            "cardinality": "1.1", 
+                            "type": "bool", 
+                            "uiOrdinal": 3
                         }
                     ]
                 }, 

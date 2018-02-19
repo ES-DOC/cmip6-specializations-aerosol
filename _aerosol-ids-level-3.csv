@@ -57,6 +57,7 @@ cmip6.aerosol.optical_radiative_properties.mixtures.internal, Aerosol > Optical 
 cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule, Aerosol > Optical Radiative Properties > Mixtures > Mixing Rule, property
 cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size, Aerosol > Optical Radiative Properties > Impact Of H2o > Size, property
 cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture, Aerosol > Optical Radiative Properties > Impact Of H2o > Internal Mixture, property
+cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture, Aerosol > Optical Radiative Properties > Impact Of H2o > External Mixture, property
 cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview, Aerosol > Optical Radiative Properties > Radiative Scheme > Overview, property
 cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands, Aerosol > Optical Radiative Properties > Radiative Scheme > Shortwave Bands, property
 cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands, Aerosol > Optical Radiative Properties > Radiative Scheme > Longwave Bands, property

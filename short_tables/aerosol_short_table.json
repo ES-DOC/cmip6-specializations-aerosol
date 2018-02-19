@@ -22,6 +22,7 @@
         ["cmip6.aerosol.model.optical_radiative_properties.mixtures.external", 1],
         ["cmip6.aerosol.model.optical_radiative_properties.mixtures.internal", 1],
         ["cmip6.aerosol.model.optical_radiative_properties.impact_of_h2o.internal_mixture", 1],
+	["cmip6.aerosol.model.optical_radiative_properties.impact_of_h2o.external_mixture", 1],
         ["cmip6.aerosol.model.optical_radiative_properties.radiative_scheme.shortwave_bands", 1],
         ["cmip6.aerosol.model.optical_radiative_properties.radiative_scheme.longwave_bands", 1]
     ],
