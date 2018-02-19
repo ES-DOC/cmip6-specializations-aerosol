@@ -46,7 +46,7 @@ DETAILS['toplevel'] = {
             'List of species prescribed at the upper boundary.'),
         ('prescribed_fields_mmr', 'str', '0.1',
             'List of species prescribed as mass mixing ratios.'),
-        ('prescribed_fields_mmr', 'str', '0.1',
+        ('prescribed_fields_aod_plus_ccn', 'str', '0.1',
             'List of species prescribed as AOD plus CCNs.'),
     ],
 }
