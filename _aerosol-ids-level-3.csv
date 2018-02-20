@@ -46,7 +46,7 @@ cmip6.aerosol.concentrations.overview, Aerosol > Concentrations > Overview, prop
 cmip6.aerosol.concentrations.prescribed_lower_boundary, Aerosol > Concentrations > Prescribed Lower Boundary, property
 cmip6.aerosol.concentrations.prescribed_upper_boundary, Aerosol > Concentrations > Prescribed Upper Boundary, property
 cmip6.aerosol.concentrations.prescribed_fields_mmr, Aerosol > Concentrations > Prescribed Fields Mmr, property
-cmip6.aerosol.concentrations.prescribed_fields_mmr, Aerosol > Concentrations > Prescribed Fields Mmr, property
+cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn, Aerosol > Concentrations > Prescribed Fields Aod Plus Ccn, property
 , , 
 cmip6.aerosol.optical_radiative_properties.overview, Aerosol > Optical Radiative Properties > Overview, property
 cmip6.aerosol.optical_radiative_properties.absorption.black_carbon, Aerosol > Optical Radiative Properties > Absorption > Black Carbon, property

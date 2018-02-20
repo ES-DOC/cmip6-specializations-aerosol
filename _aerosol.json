@@ -329,9 +329,9 @@
                     "uiOrdinal": 4
                 }, 
                 {
-                    "label": "Prescribed Fields Mmr", 
+                    "label": "Prescribed Fields Aod Plus Ccn", 
                     "description": "List of species prescribed as AOD plus CCNs.", 
-                    "id": "cmip6.aerosol.concentrations.prescribed_fields_mmr", 
+                    "id": "cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn", 
                     "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 5
