@@ -150,9 +150,8 @@ ENUMERATIONS['scheme_scopes'] = {
     'description': 'Atmospheric domains covered by the aerosol model',
     'is_open': True,
     'members': [
-        ('troposhere', None),
+        ('troposphere', None),
         ('stratosphere', None),
-        ('mesosphere', None),
         ('mesosphere', None),
         ('whole atmosphere', None),
     ]
