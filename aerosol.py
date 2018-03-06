@@ -6,7 +6,7 @@ For further information goto http://wordpress.es-doc.org/cmip6-model-specializat
 # --------------------------------------------------------------------
 # CONTACT: Set to specialization co-ordinator.
 # --------------------------------------------------------------------
-CONTACT = 'Charlotte Pascoe, David Hassell'
+CONTACT = 'David Hassell'
 
 # --------------------------------------------------------------------
 # AUTHORS: Set to specialization authors (comma delimited).
@@ -16,7 +16,7 @@ AUTHORS = 'David Hassell'
 # --------------------------------------------------------------------
 # CONTRIBUTORS: Set to specialization contributors (comma delimited).
 # --------------------------------------------------------------------
-CONTRIBUTORS = 'CMIP5 version'
+CONTRIBUTORS = 'CMIP5 version, Yves Balkanski (LSCE), Michael Schulz (MET Norway)'
 
 # --------------------------------------------------------------------
 # QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
@@ -31,12 +31,14 @@ CHANGE_HISTORY = [
          "Initialised from CMIP5"),
 	("0.2.0", "2017-12-18", "David Hassell (NCAS)",
          "Updated with input from Yves Balkanski (LSCE) and Michael Schulz (MET Norway)"),
+	("1.0.0", "2018-03-06", "David Hassell (NCAS)",
+         "Copied grid from atmoschem"),
     ]
 
 # --------------------------------------------------------------------
 # CMIP5_MAPPINGS_SYNCED_AT: Latest version that has been synced with CMIP5 mappings.
 # --------------------------------------------------------------------
-#CMIP5_MAPPINGS_SYNCED_AT = "0.4.0"
+CMIP5_MAPPINGS_SYNCED_AT = "1.0.0"
 
 # --------------------------------------------------------------------
 # DESCRIPTION: Scientific context of this specialization

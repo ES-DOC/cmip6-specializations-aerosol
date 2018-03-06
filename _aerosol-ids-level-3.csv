@@ -27,6 +27,14 @@ cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used, Aerosol > 
 cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used, Aerosol > Key Properties > Tuning Applied > Regional Metrics Used, property
 cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used, Aerosol > Key Properties > Tuning Applied > Trend Metrics Used, property
 , , 
+cmip6.aerosol.grid.overview, Aerosol > Grid > Overview, property
+cmip6.aerosol.grid.matches_atmosphere_grid, Aerosol > Grid > Matches Atmosphere Grid, property
+cmip6.aerosol.grid.resolution.name, Aerosol > Grid > Resolution > Name, property
+cmip6.aerosol.grid.resolution.canonical_horizontal_resolution, Aerosol > Grid > Resolution > Canonical Horizontal Resolution, property
+cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints, Aerosol > Grid > Resolution > Number Of Horizontal Gridpoints, property
+cmip6.aerosol.grid.resolution.number_of_vertical_levels, Aerosol > Grid > Resolution > Number Of Vertical Levels, property
+cmip6.aerosol.grid.resolution.is_adaptive_grid, Aerosol > Grid > Resolution > Is Adaptive Grid, property
+, , 
 cmip6.aerosol.transport.overview, Aerosol > Transport > Overview, property
 cmip6.aerosol.transport.scheme, Aerosol > Transport > Scheme, property
 cmip6.aerosol.transport.mass_conservation_scheme, Aerosol > Transport > Mass Conservation Scheme, property
