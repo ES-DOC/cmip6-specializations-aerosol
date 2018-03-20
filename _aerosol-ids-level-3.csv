@@ -1,6 +1,14 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.aerosol.key_properties.model_overview, Aerosol > Key Properties > Model Overview, property
-cmip6.aerosol.key_properties.model_name, Aerosol > Key Properties > Model Name, property
+cmip6.aerosol.grid.overview, Aerosol > Grid > Overview, property
+cmip6.aerosol.grid.matches_atmosphere_grid, Aerosol > Grid > Matches Atmosphere Grid, property
+cmip6.aerosol.grid.resolution.name, Aerosol > Grid > Resolution > Name, property
+cmip6.aerosol.grid.resolution.canonical_horizontal_resolution, Aerosol > Grid > Resolution > Canonical Horizontal Resolution, property
+cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints, Aerosol > Grid > Resolution > Number Of Horizontal Gridpoints, property
+cmip6.aerosol.grid.resolution.number_of_vertical_levels, Aerosol > Grid > Resolution > Number Of Vertical Levels, property
+cmip6.aerosol.grid.resolution.is_adaptive_grid, Aerosol > Grid > Resolution > Is Adaptive Grid, property
+, , 
+cmip6.aerosol.key_properties.name, Aerosol > Key Properties > Name, property
+cmip6.aerosol.key_properties.overview, Aerosol > Key Properties > Overview, property
 cmip6.aerosol.key_properties.scheme_scope, Aerosol > Key Properties > Scheme Scope, property
 cmip6.aerosol.key_properties.basic_approximations, Aerosol > Key Properties > Basic Approximations, property
 cmip6.aerosol.key_properties.prognostic_variables_form, Aerosol > Key Properties > Prognostic Variables Form, property
@@ -27,19 +35,13 @@ cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used, Aerosol > 
 cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used, Aerosol > Key Properties > Tuning Applied > Regional Metrics Used, property
 cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used, Aerosol > Key Properties > Tuning Applied > Trend Metrics Used, property
 , , 
-cmip6.aerosol.grid.overview, Aerosol > Grid > Overview, property
-cmip6.aerosol.grid.matches_atmosphere_grid, Aerosol > Grid > Matches Atmosphere Grid, property
-cmip6.aerosol.grid.resolution.name, Aerosol > Grid > Resolution > Name, property
-cmip6.aerosol.grid.resolution.canonical_horizontal_resolution, Aerosol > Grid > Resolution > Canonical Horizontal Resolution, property
-cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints, Aerosol > Grid > Resolution > Number Of Horizontal Gridpoints, property
-cmip6.aerosol.grid.resolution.number_of_vertical_levels, Aerosol > Grid > Resolution > Number Of Vertical Levels, property
-cmip6.aerosol.grid.resolution.is_adaptive_grid, Aerosol > Grid > Resolution > Is Adaptive Grid, property
-, , 
+cmip6.aerosol.transport.name, Aerosol > Transport > Name, property
 cmip6.aerosol.transport.overview, Aerosol > Transport > Overview, property
 cmip6.aerosol.transport.scheme, Aerosol > Transport > Scheme, property
 cmip6.aerosol.transport.mass_conservation_scheme, Aerosol > Transport > Mass Conservation Scheme, property
 cmip6.aerosol.transport.convention, Aerosol > Transport > Convention, property
 , , 
+cmip6.aerosol.emissions.name, Aerosol > Emissions > Name, property
 cmip6.aerosol.emissions.overview, Aerosol > Emissions > Overview, property
 cmip6.aerosol.emissions.method, Aerosol > Emissions > Method, property
 cmip6.aerosol.emissions.sources, Aerosol > Emissions > Sources, property
@@ -50,12 +52,14 @@ cmip6.aerosol.emissions.interactive_emitted_species, Aerosol > Emissions > Inter
 cmip6.aerosol.emissions.other_emitted_species, Aerosol > Emissions > Other Emitted Species, property
 cmip6.aerosol.emissions.other_method_characteristics, Aerosol > Emissions > Other Method Characteristics, property
 , , 
+cmip6.aerosol.concentrations.name, Aerosol > Concentrations > Name, property
 cmip6.aerosol.concentrations.overview, Aerosol > Concentrations > Overview, property
 cmip6.aerosol.concentrations.prescribed_lower_boundary, Aerosol > Concentrations > Prescribed Lower Boundary, property
 cmip6.aerosol.concentrations.prescribed_upper_boundary, Aerosol > Concentrations > Prescribed Upper Boundary, property
 cmip6.aerosol.concentrations.prescribed_fields_mmr, Aerosol > Concentrations > Prescribed Fields Mmr, property
 cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn, Aerosol > Concentrations > Prescribed Fields Aod Plus Ccn, property
 , , 
+cmip6.aerosol.optical_radiative_properties.name, Aerosol > Optical Radiative Properties > Name, property
 cmip6.aerosol.optical_radiative_properties.overview, Aerosol > Optical Radiative Properties > Overview, property
 cmip6.aerosol.optical_radiative_properties.absorption.black_carbon, Aerosol > Optical Radiative Properties > Absorption > Black Carbon, property
 cmip6.aerosol.optical_radiative_properties.absorption.dust, Aerosol > Optical Radiative Properties > Absorption > Dust, property
@@ -76,6 +80,7 @@ cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle, Aerosol >
 cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime, Aerosol > Optical Radiative Properties > Cloud Interactions > Cloud Lifetime, property
 cmip6.aerosol.optical_radiative_properties.cloud_interactions.longwave_bands, Aerosol > Optical Radiative Properties > Cloud Interactions > Longwave Bands, property
 , , 
+cmip6.aerosol.model.name, Aerosol > Model > Name, property
 cmip6.aerosol.model.overview, Aerosol > Model > Overview, property
 cmip6.aerosol.model.processes, Aerosol > Model > Processes, property
 cmip6.aerosol.model.coupling, Aerosol > Model > Coupling, property

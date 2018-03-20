@@ -12,35 +12,9 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'Charlotte Pascoe, David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Aerosol optical and radiative properties'
-
-# --------------------------------------------------------------------
-# PROCESS: Optical and radiative properties
-# --------------------------------------------------------------------
-DETAILS['toplevel'] = {
-    'description': 'Optical and radiative properties',
-    'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of optical and radiative properties'),
-    ],
-}
 
 # --------------------------------------------------------------------
 # SUB-PROCESS: Absorption
@@ -94,7 +68,7 @@ DETAILS['radiative_scheme'] = {
     'description': 'Radiative scheme for aerosol',
     'properties': [
         ('overview', 'str', '1.1',
-             'Overview of radiative scheme'),      
+             'Overview of radiative scheme'),
         ('shortwave_bands', 'int', '1.1',
             'Number of shortwave bands'),
         ('longwave_bands', 'int', '1.1',

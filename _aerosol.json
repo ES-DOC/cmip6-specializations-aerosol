@@ -1,22 +1,30 @@
 {
     "label": "Aerosol", 
-    "description": "Atmospheric aerosols realm", 
+    "description": "Atmospheric aerosols", 
     "id": "cmip6.aerosol", 
-    "contact": "David Hassell", 
+    "contact": null, 
     "processes": [
         {
             "label": "Transport", 
             "description": "Aerosol transport", 
             "id": "cmip6.aerosol.transport", 
-            "contact": "David Hassell", 
+            "contact": null, 
             "properties": [
                 {
-                    "label": "Overview", 
-                    "description": "Overview of transport in atmosperic aerosol model", 
-                    "id": "cmip6.aerosol.transport.overview", 
-                    "cardinality": "1.1", 
+                    "label": "Name", 
+                    "description": "Commonly used name for the transport in aerosol model.", 
+                    "id": "cmip6.aerosol.transport.name", 
+                    "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Overview", 
+                    "description": "Overview of aerosol transport in aerosol model.", 
+                    "id": "cmip6.aerosol.transport.overview", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Scheme", 
@@ -51,7 +59,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 2
+                    "uiOrdinal": 3
                 }, 
                 {
                     "label": "Mass Conservation Scheme", 
@@ -82,7 +90,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 3
+                    "uiOrdinal": 4
                 }, 
                 {
                     "label": "Convention", 
@@ -109,7 +117,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 4
+                    "uiOrdinal": 5
                 }
             ]
         }, 
@@ -117,15 +125,23 @@
             "label": "Emissions", 
             "description": "Atmospheric aerosol emissions", 
             "id": "cmip6.aerosol.emissions", 
-            "contact": "David Hassell", 
+            "contact": null, 
             "properties": [
                 {
-                    "label": "Overview", 
-                    "description": "Overview of emissions in atmosperic aerosol model", 
-                    "id": "cmip6.aerosol.emissions.overview", 
-                    "cardinality": "1.1", 
+                    "label": "Name", 
+                    "description": "Commonly used name for the emissions in aerosol model.", 
+                    "id": "cmip6.aerosol.emissions.name", 
+                    "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Overview", 
+                    "description": "Overview of atmospheric aerosol emissions in aerosol model.", 
+                    "id": "cmip6.aerosol.emissions.overview", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Method", 
@@ -164,7 +180,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 2
+                    "uiOrdinal": 3
                 }, 
                 {
                     "label": "Sources", 
@@ -211,7 +227,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 3
+                    "uiOrdinal": 4
                 }, 
                 {
                     "label": "Prescribed Climatology", 
@@ -246,7 +262,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 4
+                    "uiOrdinal": 5
                 }, 
                 {
                     "label": "Prescribed Climatology Emitted Species", 
@@ -254,7 +270,7 @@
                     "id": "cmip6.aerosol.emissions.prescribed_climatology_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 5
+                    "uiOrdinal": 6
                 }, 
                 {
                     "label": "Prescribed Spatially Uniform Emitted Species", 
@@ -262,7 +278,7 @@
                     "id": "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 6
+                    "uiOrdinal": 7
                 }, 
                 {
                     "label": "Interactive Emitted Species", 
@@ -270,7 +286,7 @@
                     "id": "cmip6.aerosol.emissions.interactive_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 7
+                    "uiOrdinal": 8
                 }, 
                 {
                     "label": "Other Emitted Species", 
@@ -278,7 +294,7 @@
                     "id": "cmip6.aerosol.emissions.other_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 8
+                    "uiOrdinal": 9
                 }, 
                 {
                     "label": "Other Method Characteristics", 
@@ -286,7 +302,7 @@
                     "id": "cmip6.aerosol.emissions.other_method_characteristics", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 9
+                    "uiOrdinal": 10
                 }
             ]
         }, 
@@ -294,15 +310,23 @@
             "label": "Concentrations", 
             "description": "Atmospheric aerosol concentrations", 
             "id": "cmip6.aerosol.concentrations", 
-            "contact": "David Hassell", 
+            "contact": null, 
             "properties": [
                 {
-                    "label": "Overview", 
-                    "description": "Overview of concentrations in atmosperic aerosol model", 
-                    "id": "cmip6.aerosol.concentrations.overview", 
-                    "cardinality": "1.1", 
+                    "label": "Name", 
+                    "description": "Commonly used name for the concentrations in aerosol model.", 
+                    "id": "cmip6.aerosol.concentrations.name", 
+                    "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Overview", 
+                    "description": "Overview of atmospheric aerosol concentrations in aerosol model.", 
+                    "id": "cmip6.aerosol.concentrations.overview", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Prescribed Lower Boundary", 
@@ -310,7 +334,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_lower_boundary", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 2
+                    "uiOrdinal": 3
                 }, 
                 {
                     "label": "Prescribed Upper Boundary", 
@@ -318,7 +342,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_upper_boundary", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 3
+                    "uiOrdinal": 4
                 }, 
                 {
                     "label": "Prescribed Fields Mmr", 
@@ -326,7 +350,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_fields_mmr", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 4
+                    "uiOrdinal": 5
                 }, 
                 {
                     "label": "Prescribed Fields Aod Plus Ccn", 
@@ -334,7 +358,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 5
+                    "uiOrdinal": 6
                 }
             ]
         }, 
@@ -342,15 +366,23 @@
             "label": "Optical Radiative Properties", 
             "description": "Aerosol optical and radiative properties", 
             "id": "cmip6.aerosol.optical_radiative_properties", 
-            "contact": "Charlotte Pascoe, David Hassell", 
+            "contact": null, 
             "properties": [
                 {
-                    "label": "Overview", 
-                    "description": "Overview of optical and radiative properties", 
-                    "id": "cmip6.aerosol.optical_radiative_properties.overview", 
-                    "cardinality": "1.1", 
+                    "label": "Name", 
+                    "description": "Commonly used name for the optical radiative properties in aerosol model.", 
+                    "id": "cmip6.aerosol.optical_radiative_properties.name", 
+                    "cardinality": "0.1", 
                     "type": "str", 
                     "uiOrdinal": 1
+                }, 
+                {
+                    "label": "Overview", 
+                    "description": "Overview of aerosol optical and radiative properties in aerosol model.", 
+                    "id": "cmip6.aerosol.optical_radiative_properties.overview", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 2
                 }
             ], 
             "subProcesses": [
@@ -358,7 +390,7 @@
                     "label": "Absorption", 
                     "description": "Absortion properties in aerosol scheme", 
                     "id": "cmip6.aerosol.optical_radiative_properties.absorption", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": null, 
                     "properties": [
                         {
                             "label": "Black Carbon", 
@@ -390,7 +422,7 @@
                     "label": "Mixtures", 
                     "description": "", 
                     "id": "cmip6.aerosol.optical_radiative_properties.mixtures", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": null, 
                     "properties": [
                         {
                             "label": "External", 
@@ -422,7 +454,7 @@
                     "label": "Impact Of H2o", 
                     "description": "", 
                     "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": null, 
                     "properties": [
                         {
                             "label": "Size", 
@@ -454,7 +486,7 @@
                     "label": "Radiative Scheme", 
                     "description": "Radiative scheme for aerosol", 
                     "id": "cmip6.aerosol.optical_radiative_properties.radiative_scheme", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": null, 
                     "properties": [
                         {
                             "label": "Overview", 
@@ -486,7 +518,7 @@
                     "label": "Cloud Interactions", 
                     "description": "Aerosol-cloud interactions", 
                     "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": null, 
                     "properties": [
                         {
                             "label": "Overview", 
@@ -544,15 +576,23 @@
             "label": "Model", 
             "description": "Aerosol model", 
             "id": "cmip6.aerosol.model", 
-            "contact": "Charlotte Pascoe, David Hassell", 
+            "contact": null, 
             "properties": [
+                {
+                    "label": "Name", 
+                    "description": "Commonly used name for the model in aerosol model.", 
+                    "id": "cmip6.aerosol.model.name", 
+                    "cardinality": "0.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
                 {
                     "label": "Overview", 
                     "description": "Overview of atmosperic aerosol model", 
                     "id": "cmip6.aerosol.model.overview", 
                     "cardinality": "1.1", 
                     "type": "str", 
-                    "uiOrdinal": 1
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Processes", 
@@ -619,7 +659,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 2
+                    "uiOrdinal": 3
                 }, 
                 {
                     "label": "Coupling", 
@@ -662,7 +702,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 3
+                    "uiOrdinal": 4
                 }, 
                 {
                     "label": "Gas Phase Precursors", 
@@ -709,7 +749,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 4
+                    "uiOrdinal": 5
                 }, 
                 {
                     "label": "Scheme Type", 
@@ -736,7 +776,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 5
+                    "uiOrdinal": 6
                 }, 
                 {
                     "label": "Bulk Scheme Species", 
@@ -803,7 +843,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 6
+                    "uiOrdinal": 7
                 }
             ]
         }
@@ -812,13 +852,13 @@
         "label": "Grid", 
         "description": "Aerosol grid", 
         "id": "cmip6.aerosol.grid", 
-        "contact": "Charlotte Pascoe, David Hassell", 
+        "contact": null, 
         "properties": [
             {
                 "label": "Overview", 
-                "description": "Describe the general structure of the atmospheric aerosol grid", 
+                "description": "Overview of grid in aerosol model.", 
                 "id": "cmip6.aerosol.grid.overview", 
-                "cardinality": "1.1", 
+                "cardinality": "0.1", 
                 "type": "str", 
                 "uiOrdinal": 1
             }, 
@@ -836,7 +876,7 @@
                 "label": "Resolution", 
                 "description": "Resolution in the atmospheric aerosol grid", 
                 "id": "cmip6.aerosol.grid.resolution", 
-                "contact": "Charlotte Pascoe, David Hassell", 
+                "contact": null, 
                 "properties": [
                     {
                         "label": "Name", 
@@ -886,20 +926,20 @@
         "label": "Key Properties", 
         "description": "Key properties of the aerosol model", 
         "id": "cmip6.aerosol.key_properties", 
-        "contact": "Charlotte Pascoe, David Hassell", 
+        "contact": null, 
         "properties": [
             {
-                "label": "Model Overview", 
-                "description": "Overview of aerosol model.", 
-                "id": "cmip6.aerosol.key_properties.model_overview", 
+                "label": "Name", 
+                "description": "Name of aerosol model code", 
+                "id": "cmip6.aerosol.key_properties.name", 
                 "cardinality": "1.1", 
                 "type": "str", 
                 "uiOrdinal": 1
             }, 
             {
-                "label": "Model Name", 
-                "description": "Name of aerosol model code", 
-                "id": "cmip6.aerosol.key_properties.model_name", 
+                "label": "Overview", 
+                "description": "Overview of aerosol model.", 
+                "id": "cmip6.aerosol.key_properties.overview", 
                 "cardinality": "1.1", 
                 "type": "str", 
                 "uiOrdinal": 2
@@ -1021,7 +1061,7 @@
                 "label": "Timestep Framework", 
                 "description": "Physical properties of seawater in ocean", 
                 "id": "cmip6.aerosol.key_properties.timestep_framework", 
-                "contact": "Charlotte Pascoe, David Hassell", 
+                "contact": null, 
                 "properties": [
                     {
                         "label": "Method", 
@@ -1127,7 +1167,7 @@
                 "label": "Meteorological Forcings", 
                 "description": "", 
                 "id": "cmip6.aerosol.key_properties.meteorological_forcings", 
-                "contact": "Charlotte Pascoe, David Hassell", 
+                "contact": null, 
                 "properties": [
                     {
                         "label": "Variables 3D", 
@@ -1159,7 +1199,7 @@
                 "label": "Resolution", 
                 "description": "Resolution in the aersosol model grid", 
                 "id": "cmip6.aerosol.key_properties.resolution", 
-                "contact": "Charlotte Pascoe, David Hassell", 
+                "contact": null, 
                 "properties": [
                     {
                         "label": "Name", 
@@ -1207,7 +1247,7 @@
                 "label": "Tuning Applied", 
                 "description": "Tuning methodology for aerosol model", 
                 "id": "cmip6.aerosol.key_properties.tuning_applied", 
-                "contact": "Charlotte Pascoe, David Hassell", 
+                "contact": null, 
                 "properties": [
                     {
                         "label": "Description", 

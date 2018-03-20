@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Atmospheric aerosol emissions'
@@ -34,12 +19,9 @@ DESCRIPTION = 'Atmospheric aerosol emissions'
 # --------------------------------------------------------------------
 # PROCESS: top level
 # --------------------------------------------------------------------
-
 DETAILS['toplevel'] = {
     'description': 'Properties of aerosol emissions',
     'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of emissions in atmosperic aerosol model'),
         ('method', 'ENUM:emissions_methods', '1.N',
             'Method used to define aerosol species (several methods allowed because the different species may not use the same method).'),
         ('sources', 'ENUM:surface_source_types', '0.N',

@@ -19,11 +19,6 @@ AUTHORS = 'David Hassell'
 CONTRIBUTORS = 'CMIP5 version, Yves Balkanski (LSCE), Michael Schulz (MET Norway)'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # CHANGE HISTORY: Set to list: (version, date, who, comment).
 # --------------------------------------------------------------------
 CHANGE_HISTORY = [
@@ -43,7 +38,7 @@ CMIP5_MAPPINGS_SYNCED_AT = "1.0.0"
 # --------------------------------------------------------------------
 # DESCRIPTION: Scientific context of this specialization
 # --------------------------------------------------------------------
-DESCRIPTION = 'Atmospheric aerosols realm'
+DESCRIPTION = 'Atmospheric aerosols'
 
 # --------------------------------------------------------------------
 # KEY PROPERTIES: Key properties (differing from defaults (grid, timestep etc))

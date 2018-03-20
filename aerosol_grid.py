@@ -12,32 +12,18 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'Charlotte Pascoe, David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'Eric Guilyardi'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = ' David Hassell'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Aerosol grid'
 
+# --------------------------------------------------------------------
+# PROCESS: top level
+# --------------------------------------------------------------------
 DETAILS['toplevel'] = {
     'description': 'Type of grid in the aerosol scheme',
     'properties': [
-        ('overview', 'str', '1.1',
-            'Describe the general structure of the atmospheric aerosol grid'),
         ('matches_atmosphere_grid', 'bool', '1.1',
-            ' Does the atmospheric aerosol grid match the atmosphere grid?'),        
+            ' Does the atmospheric aerosol grid match the atmosphere grid?'),
     ],
 }
 

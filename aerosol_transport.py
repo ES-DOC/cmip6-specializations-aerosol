@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Aerosol transport'
@@ -37,8 +22,6 @@ DESCRIPTION = 'Aerosol transport'
 DETAILS['toplevel'] = {
     'description': 'Top level aerosol transport properties',
     'properties': [
-        ('overview', 'str', '1.1',
-             'Overview of transport in atmosperic aerosol model'),
         ('scheme', 'ENUM:transport_schemes', '1.1',
             'Method for aerosol transport modeling'),
         ('mass_conservation_scheme', 'ENUM:mass_conservation_methods', '1.N',

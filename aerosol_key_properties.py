@@ -12,21 +12,6 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'Charlotte Pascoe, David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Key properties of the aerosol model'
@@ -34,15 +19,9 @@ DESCRIPTION = 'Key properties of the aerosol model'
 # --------------------------------------------------------------------
 # PROCESS: top level
 # --------------------------------------------------------------------
-DETAILS = OrderedDict()
-
 DETAILS['toplevel'] = {
     'description': 'Top level key properties in aerosol model',
     'properties': [
-        ('model_overview', 'str', '1.1',
-             'Overview of aerosol model.'),
-        ('model_name', 'str', '1.1',
-             'Name of aerosol model code'),
         ('scheme_scope', 'ENUM:scheme_scopes', '1.N',
             'Atmospheric domains covered by the aerosol model'),
         ('basic_approximations', 'str', '1.1',
@@ -144,8 +123,6 @@ DETAILS['toplevel:software_properties'] = {
 # --------------------------------------------------------------------
 # KEY PROPERTIES: ENUMERATIONS
 # --------------------------------------------------------------------
-ENUMERATIONS = OrderedDict()
-
 ENUMERATIONS['scheme_scopes'] = {
     'description': 'Atmospheric domains covered by the aerosol model',
     'is_open': True,
@@ -175,7 +152,7 @@ ENUMERATIONS['timestepping_methods'] = {
         ('Specific timestepping (integrated)', None),
     ]
 }
-     
+
 ENUMERATIONS['integrated_scheme_types'] = {
     'description': 'Specify the type of timestep scheme',
     'is_open': True,
