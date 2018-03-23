@@ -9,7 +9,7 @@
     "CONTRIBUTORS": [],
     "LABEL": "Aerosol CMIP6 short table",
     "PROPERTIES": [
-        ["cmip6.aerosol.key_properties.model_name", 1],
+        ["cmip6.aerosol.key_properties.name", 1],
         ["cmip6.aerosol.key_properties.family_approach", 1],
         ["cmip6.aerosol.transport.scheme", 1],
         ["cmip6.aerosol.transport.convention", 1],
