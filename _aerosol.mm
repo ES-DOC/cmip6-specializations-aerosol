@@ -103,18 +103,32 @@
         <dt><b>Description</b></dt><dd>Name of aerosol model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.name</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="keywords"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd>
+        <dt><b>Description</b></dt><dd>Keywords associated with aerosol model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.keywords</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.keywords</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd>
+        <dt><b>Description</b></dt><dd>Keywords associated with aerosol model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.keywords</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.keywords</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.key_properties.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="scheme_scope"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -702,14 +716,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of grid in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.grid.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.grid.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of grid in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.grid.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.grid.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of grid in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.grid.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.grid.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of grid in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.grid.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.grid.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="matches_atmosphere_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -849,14 +863,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of aerosol transport in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.transport.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.transport.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of aerosol transport in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.transport.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.transport.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of aerosol transport in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.transport.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.transport.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of aerosol transport in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.transport.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.transport.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="scheme"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1017,14 +1031,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol emissions in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol emissions in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol emissions in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol emissions in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.emissions.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1304,70 +1318,70 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol concentrations in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol concentrations in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol concentrations in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric aerosol concentrations in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_lower_boundary"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_lower_boundary</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_upper_boundary"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_upper_boundary</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_fields_mmr"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed as mass mixing ratios.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed as mass mixing ratios.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed as mass mixing ratios.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed as mass mixing ratios.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_mmr</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_fields_aod_plus_ccn"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed as AOD plus CCNs.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed as AOD plus CCNs.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed as AOD plus CCNs.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed as AOD plus CCNs.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="optical_radiative_properties"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1402,14 +1416,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of aerosol optical and radiative properties in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of aerosol optical and radiative properties in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of aerosol optical and radiative properties in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of aerosol optical and radiative properties in aerosol model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.aerosol.optical_radiative_properties.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="absorption"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>

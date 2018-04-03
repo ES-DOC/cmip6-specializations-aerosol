@@ -23,7 +23,7 @@
                     "description": "Overview of aerosol transport in aerosol model.", 
                     "id": "cmip6.aerosol.transport.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -140,7 +140,7 @@
                     "description": "Overview of atmospheric aerosol emissions in aerosol model.", 
                     "id": "cmip6.aerosol.emissions.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -325,7 +325,7 @@
                     "description": "Overview of atmospheric aerosol concentrations in aerosol model.", 
                     "id": "cmip6.aerosol.concentrations.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -333,7 +333,7 @@
                     "description": "List of species prescribed at the lower boundary.", 
                     "id": "cmip6.aerosol.concentrations.prescribed_lower_boundary", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -341,7 +341,7 @@
                     "description": "List of species prescribed at the upper boundary.", 
                     "id": "cmip6.aerosol.concentrations.prescribed_upper_boundary", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 4
                 }, 
                 {
@@ -349,7 +349,7 @@
                     "description": "List of species prescribed as mass mixing ratios.", 
                     "id": "cmip6.aerosol.concentrations.prescribed_fields_mmr", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 5
                 }, 
                 {
@@ -357,7 +357,7 @@
                     "description": "List of species prescribed as AOD plus CCNs.", 
                     "id": "cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 6
                 }
             ]
@@ -381,7 +381,7 @@
                     "description": "Overview of aerosol optical and radiative properties in aerosol model.", 
                     "id": "cmip6.aerosol.optical_radiative_properties.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }
             ], 
@@ -907,7 +907,7 @@
                 "description": "Overview of grid in aerosol model.", 
                 "id": "cmip6.aerosol.grid.overview", 
                 "cardinality": "0.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 2
             }, 
             {
@@ -993,12 +993,20 @@
                 "uiOrdinal": 1
             }, 
             {
+                "label": "Keywords", 
+                "description": "Keywords associated with aerosol model code", 
+                "id": "cmip6.aerosol.key_properties.keywords", 
+                "cardinality": "1.1", 
+                "type": "cs", 
+                "uiOrdinal": 2
+            }, 
+            {
                 "label": "Overview", 
                 "description": "Overview of aerosol model.", 
                 "id": "cmip6.aerosol.key_properties.overview", 
                 "cardinality": "1.1", 
-                "type": "str", 
-                "uiOrdinal": 2
+                "type": "l", 
+                "uiOrdinal": 3
             }, 
             {
                 "label": "Scheme Scope", 
@@ -1029,7 +1037,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 3
+                "uiOrdinal": 4
             }, 
             {
                 "label": "Basic Approximations", 
@@ -1037,7 +1045,7 @@
                 "id": "cmip6.aerosol.key_properties.basic_approximations", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 4
+                "uiOrdinal": 5
             }, 
             {
                 "label": "Prognostic Variables Form", 
@@ -1060,7 +1068,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 5
+                "uiOrdinal": 6
             }, 
             {
                 "label": "Number Of Tracers", 
@@ -1068,7 +1076,7 @@
                 "id": "cmip6.aerosol.key_properties.number_of_tracers", 
                 "cardinality": "1.1", 
                 "type": "int", 
-                "uiOrdinal": 6
+                "uiOrdinal": 7
             }, 
             {
                 "label": "Family Approach", 
@@ -1076,7 +1084,7 @@
                 "id": "cmip6.aerosol.key_properties.family_approach", 
                 "cardinality": "1.1", 
                 "type": "bool", 
-                "uiOrdinal": 7
+                "uiOrdinal": 8
             }
         ], 
         "propertySets": [
