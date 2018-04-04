@@ -22,7 +22,7 @@ DESCRIPTION = 'Aerosol model'
 DETAILS['toplevel'] = {
     'description': 'Top level aerosol model properties',
     'properties': [
-        ('overview', 'str', '1.1',
+        ('overview', 'l-str', '1.1',
             'Overview of atmosperic aerosol model'),
         ('processes', 'ENUM:model_processes', '1.N',
             'Processes included in the Aerosol model.'),

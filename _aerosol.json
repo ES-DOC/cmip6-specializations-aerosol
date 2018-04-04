@@ -269,7 +269,7 @@
                     "description": "List of aerosol species emitted and prescribed via a climatology", 
                     "id": "cmip6.aerosol.emissions.prescribed_climatology_emitted_species", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -277,7 +277,7 @@
                     "description": "List of aerosol species emitted  and prescribed as spatially uniform", 
                     "id": "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 7
                 }, 
                 {
@@ -285,7 +285,7 @@
                     "description": "List of aerosol species emitted and specified via an interactive method", 
                     "id": "cmip6.aerosol.emissions.interactive_emitted_species", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 8
                 }, 
                 {
@@ -293,7 +293,7 @@
                     "description": "List of aerosol species emitted and specified via an \"other method\"", 
                     "id": "cmip6.aerosol.emissions.other_emitted_species", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs", 
                     "uiOrdinal": 9
                 }, 
                 {
@@ -458,7 +458,7 @@
                         }, 
                         {
                             "label": "Mixing Rule", 
-                            "description": "If there is internal mixing with respect to chemical composition then indicate the mixinrg rule", 
+                            "description": "If there is internal mixing with respect to chemical composition then indicate the mixing rule", 
                             "id": "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule", 
                             "cardinality": "0.1", 
                             "type": "str", 
@@ -525,7 +525,7 @@
                             "description": "Overview of radiative scheme", 
                             "id": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -565,7 +565,7 @@
                             "description": "Overview of aerosol-cloud interactions", 
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview", 
                             "cardinality": "1.1", 
-                            "type": "str", 
+                            "type": "l", 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -631,7 +631,7 @@
                     "description": "Overview of atmosperic aerosol model", 
                     "id": "cmip6.aerosol.model.overview", 
                     "cardinality": "1.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -1044,7 +1044,7 @@
                 "description": "Basic approximations made in the aerosol model", 
                 "id": "cmip6.aerosol.key_properties.basic_approximations", 
                 "cardinality": "1.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 5
             }, 
             {
@@ -1113,8 +1113,8 @@
                         "label": "Code Languages", 
                         "description": "Code language(s).", 
                         "id": "cmip6.aerosol.key_properties.software_properties.code_languages", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 3
                     }
                 ]
@@ -1254,7 +1254,7 @@
                         "description": "Three dimensionsal forcing variables, e.g. U, V, W, T, Q, P, conventive mass flux", 
                         "id": "cmip6.aerosol.key_properties.meteorological_forcings.variables_3D", 
                         "cardinality": "0.1", 
-                        "type": "str", 
+                        "type": "cs", 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1262,7 +1262,7 @@
                         "description": "Two dimensionsal forcing variables, e.g. land-sea mask definition", 
                         "id": "cmip6.aerosol.key_properties.meteorological_forcings.variables_2D", 
                         "cardinality": "0.1", 
-                        "type": "str", 
+                        "type": "cs", 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1350,31 +1350,31 @@
                         "description": "General overview description of tuning: explain and motivate the main targets and metrics retained. &Document the relative weight given to climate performance metrics versus process oriented metrics, &and on the possible conflicts with parameterization level tuning. In particular describe any struggle &with a parameter value that required pushing it to its limits to solve a particular model deficiency.", 
                         "id": "cmip6.aerosol.key_properties.tuning_applied.description", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l", 
                         "uiOrdinal": 2
                     }, 
                     {
                         "label": "Global Mean Metrics Used", 
                         "description": "List set of metrics of the global mean state used in tuning model/component", 
                         "id": "cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 3
                     }, 
                     {
                         "label": "Regional Metrics Used", 
                         "description": "List of regional metrics of mean state used in tuning model/component", 
                         "id": "cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 4
                     }, 
                     {
                         "label": "Trend Metrics Used", 
                         "description": "List observed trend metrics used in tuning model/component", 
                         "id": "cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs", 
                         "uiOrdinal": 5
                     }
                 ]

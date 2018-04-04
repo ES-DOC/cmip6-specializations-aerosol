@@ -28,6 +28,8 @@ CHANGE_HISTORY = [
          "Updated with input from Yves Balkanski (LSCE) and Michael Schulz (MET Norway)"),
 	("1.0.0", "2018-03-06", "David Hassell (NCAS)",
          "Copied grid from atmoschem"),
+	("1.0.1", "2018-04-04", "David Hassell (NCAS)",
+         "Replaced some 'occurences of str' with 'cs-str' and 'l-str'"),
     ]
 
 # --------------------------------------------------------------------

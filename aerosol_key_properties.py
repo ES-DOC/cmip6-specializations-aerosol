@@ -24,7 +24,7 @@ DETAILS['toplevel'] = {
     'properties': [
         ('scheme_scope', 'ENUM:scheme_scopes', '1.N',
             'Atmospheric domains covered by the aerosol model'),
-        ('basic_approximations', 'str', '1.1',
+        ('basic_approximations', 'l-str', '1.1',
             'Basic approximations made in the aerosol model',),
         ('prognostic_variables_form', 'ENUM:prognostic_vars_types', '1.N',
             'Prognostic variables in the aerosol model'),
@@ -60,9 +60,9 @@ DETAILS['timestep_framework'] = {
 DETAILS['meteorological_forcings'] = {
     'description': '',
     'properties' : [
-        ('variables_3D', 'str', '0.1',
+        ('variables_3D', 'cs-str', '0.1',
             'Three dimensionsal forcing variables, e.g. U, V, W, T, Q, P, conventive mass flux'),
-        ('variables_2D', 'str', '0.1',
+        ('variables_2D', 'cs-str', '0.1',
             'Two dimensionsal forcing variables, e.g. land-sea mask definition'),
         ('frequency', 'int', '0.1',
             'Frequency with which meteological forcings are applied (in seconds).'),
@@ -94,16 +94,16 @@ DETAILS['resolution'] = {
 DETAILS['tuning_applied'] = {
     'description': 'Tuning methodology for aerosol model',
     'properties': [
-        ('description', 'str', '1.1',
+        ('description', 'l-str', '1.1',
              "General overview description of tuning: explain and motivate the main targets and metrics retained. &"
              "Document the relative weight given to climate performance metrics versus process oriented metrics, &"
              "and on the possible conflicts with parameterization level tuning. In particular describe any struggle &"
              "with a parameter value that required pushing it to its limits to solve a particular model deficiency."),
-        ('global_mean_metrics_used', 'str', '0.N',
+        ('global_mean_metrics_used', 'cs-str', '0.1',
              "List set of metrics of the global mean state used in tuning model/component"),
-        ('regional_metrics_used', 'str', '0.N',
+        ('regional_metrics_used', 'cs-str', '0.1',
              "List of regional metrics of mean state used in tuning model/component"),
-        ('trend_metrics_used', 'str', '0.N',
+        ('trend_metrics_used', 'cs-str', '0.1',
              "List observed trend metrics used in tuning model/component"),
     ]
 }
@@ -115,7 +115,7 @@ DETAILS['toplevel:software_properties'] = {
             "Location of code for this component."),
         ('code_version','str', '0.1',
             "Code version identifier."),
-        ('code_languages','str', '0.N',
+        ('code_languages','cs-str', '0.1',
             "Code language(s)."),
     ]
 }

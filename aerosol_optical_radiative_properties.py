@@ -42,7 +42,7 @@ DETAILS['mixtures'] = {
         ('internal', 'bool', '1.1',
             'Is there internal mixing with respect to chemical composition?'),
         ('mixing_rule', 'str', '0.1',
-             'If there is internal mixing with respect to chemical composition then indicate the mixinrg rule'),
+             'If there is internal mixing with respect to chemical composition then indicate the mixing rule'),
     ],
 }
 
@@ -67,7 +67,7 @@ DETAILS['impact_of_h2o'] = {
 DETAILS['radiative_scheme'] = {
     'description': 'Radiative scheme for aerosol',
     'properties': [
-        ('overview', 'str', '1.1',
+        ('overview', 'l-str', '1.1',
              'Overview of radiative scheme'),
         ('shortwave_bands', 'int', '1.1',
             'Number of shortwave bands'),
@@ -82,7 +82,7 @@ DETAILS['radiative_scheme'] = {
 DETAILS['cloud_interactions'] = {
     'description': 'Aerosol-cloud interactions',
     'properties': [
-        ('overview', 'str', '1.1',
+        ('overview', 'l-str', '1.1',
              'Overview of aerosol-cloud interactions'),
         ('twomey', 'bool', '1.1',
             'Is the Twomey effect included?'),
