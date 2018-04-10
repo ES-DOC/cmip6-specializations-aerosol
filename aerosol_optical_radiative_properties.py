@@ -50,7 +50,7 @@ DETAILS['mixtures'] = {
 # SUB-PROCESS: Impact of H2O
 # --------------------------------------------------------------------
 DETAILS['impact_of_h2o'] = {
-    'description': '',
+    'description': 'The impact of H2O on aerosols',
     'properties': [
         ('size', 'bool', '1.1',
             'Does H2O impact size?'),
