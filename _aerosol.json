@@ -16,6 +16,7 @@
                     "id": "cmip6.aerosol.transport.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -24,6 +25,7 @@
                     "id": "cmip6.aerosol.transport.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -32,6 +34,7 @@
                     "id": "cmip6.aerosol.transport.scheme", 
                     "cardinality": "1.1", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Transport Schemes", 
                         "description": "Method for aerosol transport modeling", 
@@ -67,6 +70,7 @@
                     "id": "cmip6.aerosol.transport.mass_conservation_scheme", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Mass Conservation Methods", 
                         "description": "Method used to ensure mass conservation", 
@@ -98,6 +102,7 @@
                     "id": "cmip6.aerosol.transport.convention", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Convection Types", 
                         "description": "Transport by convection", 
@@ -133,6 +138,7 @@
                     "id": "cmip6.aerosol.emissions.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -141,6 +147,7 @@
                     "id": "cmip6.aerosol.emissions.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -149,6 +156,7 @@
                     "id": "cmip6.aerosol.emissions.method", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Emissions Methods", 
                         "description": "Method used to define aerosol species emitted (several methods allowed because the different species may not use the same method).", 
@@ -188,6 +196,7 @@
                     "id": "cmip6.aerosol.emissions.sources", 
                     "cardinality": "0.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Surface Source Types", 
                         "description": "Sources of the aerosol species emitted at the surface that are taken into account in the emissions scheme", 
@@ -235,6 +244,7 @@
                     "id": "cmip6.aerosol.emissions.prescribed_climatology", 
                     "cardinality": "0.1", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Prescribed Climatology Type", 
                         "description": "Specify the climatology type for aerosol emissions", 
@@ -270,6 +280,7 @@
                     "id": "cmip6.aerosol.emissions.prescribed_climatology_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -278,6 +289,7 @@
                     "id": "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 7
                 }, 
                 {
@@ -286,6 +298,7 @@
                     "id": "cmip6.aerosol.emissions.interactive_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 8
                 }, 
                 {
@@ -294,6 +307,7 @@
                     "id": "cmip6.aerosol.emissions.other_emitted_species", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 9
                 }, 
                 {
@@ -302,6 +316,7 @@
                     "id": "cmip6.aerosol.emissions.other_method_characteristics", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 10
                 }
             ]
@@ -318,6 +333,7 @@
                     "id": "cmip6.aerosol.concentrations.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -326,6 +342,7 @@
                     "id": "cmip6.aerosol.concentrations.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -334,6 +351,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_lower_boundary", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -342,6 +360,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_upper_boundary", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 4
                 }, 
                 {
@@ -350,6 +369,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_fields_mmr", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 5
                 }, 
                 {
@@ -358,6 +378,7 @@
                     "id": "cmip6.aerosol.concentrations.prescribed_fields_aod_plus_ccn", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 6
                 }
             ]
@@ -374,6 +395,7 @@
                     "id": "cmip6.aerosol.optical_radiative_properties.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -382,6 +404,7 @@
                     "id": "cmip6.aerosol.optical_radiative_properties.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }
             ], 
@@ -398,6 +421,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.absorption.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -406,6 +430,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.absorption.black_carbon", 
                             "cardinality": "0.1", 
                             "type": "float", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -414,6 +439,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.absorption.dust", 
                             "cardinality": "0.1", 
                             "type": "float", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -422,6 +448,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.absorption.organics", 
                             "cardinality": "0.1", 
                             "type": "float", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }
                     ]
@@ -438,6 +465,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.mixtures.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -446,6 +474,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.mixtures.external", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -454,6 +483,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.mixtures.internal", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -462,6 +492,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }
                     ]
@@ -478,6 +509,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -486,6 +518,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -494,6 +527,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -502,6 +536,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }
                     ]
@@ -518,6 +553,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -526,6 +562,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview", 
                             "cardinality": "1.1", 
                             "type": "l-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -534,6 +571,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands", 
                             "cardinality": "1.1", 
                             "type": "int", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -542,6 +580,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands", 
                             "cardinality": "1.1", 
                             "type": "int", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }
                     ]
@@ -558,6 +597,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -566,6 +606,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview", 
                             "cardinality": "1.1", 
                             "type": "l-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -574,6 +615,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }, 
                         {
@@ -582,6 +624,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey_minimum_ccn", 
                             "cardinality": "0.1", 
                             "type": "int", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -590,6 +633,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -598,6 +642,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime", 
                             "cardinality": "1.1", 
                             "type": "bool", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 6
                         }, 
                         {
@@ -606,6 +651,7 @@
                             "id": "cmip6.aerosol.optical_radiative_properties.cloud_interactions.longwave_bands", 
                             "cardinality": "1.1", 
                             "type": "int", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 7
                         }
                     ]
@@ -624,6 +670,7 @@
                     "id": "cmip6.aerosol.model.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -632,6 +679,7 @@
                     "id": "cmip6.aerosol.model.overview", 
                     "cardinality": "1.1", 
                     "type": "l-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -640,6 +688,7 @@
                     "id": "cmip6.aerosol.model.processes", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Model Processes", 
                         "description": "Processes included in the Aerosol model.", 
@@ -707,6 +756,7 @@
                     "id": "cmip6.aerosol.model.coupling", 
                     "cardinality": "0.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Coupling", 
                         "description": "Other model components coupled to the Aerosol model.", 
@@ -750,6 +800,7 @@
                     "id": "cmip6.aerosol.model.gas_phase_precursors", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Gas Phase Precursors", 
                         "description": "List of gas phase aerosol precursors.", 
@@ -797,6 +848,7 @@
                     "id": "cmip6.aerosol.model.scheme_type", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Scheme Types", 
                         "description": "Type(s) of aerosol scheme used by the aerosols model (potentially multiple: some species may be covered by one type of aerosol scheme and other species covered by another type).", 
@@ -824,6 +876,7 @@
                     "id": "cmip6.aerosol.model.bulk_scheme_species", 
                     "cardinality": "1.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Species", 
                         "description": "List of species.", 
@@ -900,6 +953,7 @@
                 "id": "cmip6.aerosol.grid.name", 
                 "cardinality": "0.1", 
                 "type": "str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 1
             }, 
             {
@@ -908,6 +962,7 @@
                 "id": "cmip6.aerosol.grid.overview", 
                 "cardinality": "0.1", 
                 "type": "l-str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 2
             }, 
             {
@@ -916,6 +971,7 @@
                 "id": "cmip6.aerosol.grid.matches_atmosphere_grid", 
                 "cardinality": "1.1", 
                 "type": "bool", 
+                "is_cim_property": false, 
                 "uiOrdinal": 3
             }
         ], 
@@ -932,6 +988,7 @@
                         "id": "cmip6.aerosol.grid.resolution.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -940,6 +997,7 @@
                         "id": "cmip6.aerosol.grid.resolution.name", 
                         "cardinality": "1.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -948,6 +1006,7 @@
                         "id": "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -956,6 +1015,7 @@
                         "id": "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -964,6 +1024,7 @@
                         "id": "cmip6.aerosol.grid.resolution.number_of_vertical_levels", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }, 
                     {
@@ -972,6 +1033,7 @@
                         "id": "cmip6.aerosol.grid.resolution.is_adaptive_grid", 
                         "cardinality": "0.1", 
                         "type": "bool", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 6
                     }
                 ]
@@ -990,6 +1052,7 @@
                 "id": "cmip6.aerosol.key_properties.name", 
                 "cardinality": "1.1", 
                 "type": "str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 1
             }, 
             {
@@ -998,6 +1061,7 @@
                 "id": "cmip6.aerosol.key_properties.keywords", 
                 "cardinality": "1.1", 
                 "type": "cs-str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 2
             }, 
             {
@@ -1006,6 +1070,7 @@
                 "id": "cmip6.aerosol.key_properties.overview", 
                 "cardinality": "1.1", 
                 "type": "l-str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 3
             }, 
             {
@@ -1014,6 +1079,7 @@
                 "id": "cmip6.aerosol.key_properties.scheme_scope", 
                 "cardinality": "1.N", 
                 "type": "enum", 
+                "is_cim_property": false, 
                 "enum": {
                     "label": "Scheme Scopes", 
                     "description": "Atmospheric domains covered by the aerosol model", 
@@ -1045,6 +1111,7 @@
                 "id": "cmip6.aerosol.key_properties.basic_approximations", 
                 "cardinality": "1.1", 
                 "type": "l-str", 
+                "is_cim_property": false, 
                 "uiOrdinal": 5
             }, 
             {
@@ -1053,6 +1120,7 @@
                 "id": "cmip6.aerosol.key_properties.prognostic_variables_form", 
                 "cardinality": "1.N", 
                 "type": "enum", 
+                "is_cim_property": false, 
                 "enum": {
                     "label": "Prognostic Vars Types", 
                     "description": "Form of prognostic variables in the aerosol model.", 
@@ -1076,6 +1144,7 @@
                 "id": "cmip6.aerosol.key_properties.number_of_tracers", 
                 "cardinality": "1.1", 
                 "type": "int", 
+                "is_cim_property": false, 
                 "uiOrdinal": 7
             }, 
             {
@@ -1084,6 +1153,7 @@
                 "id": "cmip6.aerosol.key_properties.family_approach", 
                 "cardinality": "1.1", 
                 "type": "bool", 
+                "is_cim_property": false, 
                 "uiOrdinal": 8
             }
         ], 
@@ -1099,6 +1169,7 @@
                         "id": "cmip6.aerosol.key_properties.software_properties.repository", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1107,6 +1178,7 @@
                         "id": "cmip6.aerosol.key_properties.software_properties.code_version", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1115,6 +1187,7 @@
                         "id": "cmip6.aerosol.key_properties.software_properties.code_languages", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }
                 ]
@@ -1133,6 +1206,7 @@
                         "id": "cmip6.aerosol.key_properties.timestep_framework.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1141,6 +1215,7 @@
                         "id": "cmip6.aerosol.key_properties.timestep_framework.method", 
                         "cardinality": "1.1", 
                         "type": "enum", 
+                        "is_cim_property": false, 
                         "enum": {
                             "label": "Timestepping Methods", 
                             "description": "Mathematical method deployed to solve the time evolution of the prognostic variables.", 
@@ -1168,6 +1243,7 @@
                         "id": "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1176,6 +1252,7 @@
                         "id": "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -1184,6 +1261,7 @@
                         "id": "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep", 
                         "cardinality": "1.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }, 
                     {
@@ -1192,6 +1270,7 @@
                         "id": "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type", 
                         "cardinality": "1.1", 
                         "type": "enum", 
+                        "is_cim_property": false, 
                         "enum": {
                             "label": "Integrated Scheme Types", 
                             "description": "Specify the type of timestep scheme", 
@@ -1247,6 +1326,7 @@
                         "id": "cmip6.aerosol.key_properties.meteorological_forcings.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1255,6 +1335,7 @@
                         "id": "cmip6.aerosol.key_properties.meteorological_forcings.variables_3D", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1263,6 +1344,7 @@
                         "id": "cmip6.aerosol.key_properties.meteorological_forcings.variables_2D", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1271,6 +1353,7 @@
                         "id": "cmip6.aerosol.key_properties.meteorological_forcings.frequency", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }
                 ]
@@ -1287,6 +1370,7 @@
                         "id": "cmip6.aerosol.key_properties.resolution.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1295,6 +1379,7 @@
                         "id": "cmip6.aerosol.key_properties.resolution.name", 
                         "cardinality": "1.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1303,6 +1388,7 @@
                         "id": "cmip6.aerosol.key_properties.resolution.canonical_horizontal_resolution", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1311,6 +1397,7 @@
                         "id": "cmip6.aerosol.key_properties.resolution.number_of_horizontal_gridpoints", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -1319,6 +1406,7 @@
                         "id": "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }, 
                     {
@@ -1327,6 +1415,7 @@
                         "id": "cmip6.aerosol.key_properties.resolution.is_adaptive_grid", 
                         "cardinality": "0.1", 
                         "type": "bool", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 6
                     }
                 ]
@@ -1343,6 +1432,7 @@
                         "id": "cmip6.aerosol.key_properties.tuning_applied.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1351,6 +1441,7 @@
                         "id": "cmip6.aerosol.key_properties.tuning_applied.description", 
                         "cardinality": "1.1", 
                         "type": "l-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1359,6 +1450,7 @@
                         "id": "cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1367,6 +1459,7 @@
                         "id": "cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -1375,6 +1468,7 @@
                         "id": "cmip6.aerosol.key_properties.tuning_applied.trend_metrics_used", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }
                 ]
