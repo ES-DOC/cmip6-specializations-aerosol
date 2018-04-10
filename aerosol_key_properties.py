@@ -24,7 +24,7 @@ DETAILS['toplevel'] = {
     'properties': [
         ('scheme_scope', 'ENUM:scheme_scopes', '1.N',
             'Atmospheric domains covered by the aerosol model'),
-        ('basic_approximations', 'l-str', '1.1',
+        ('basic_approximations', 'str', '1.1',
             'Basic approximations made in the aerosol model',),
         ('prognostic_variables_form', 'ENUM:prognostic_vars_types', '1.N',
             'Prognostic variables in the aerosol model'),
