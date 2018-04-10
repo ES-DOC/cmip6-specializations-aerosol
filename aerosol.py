@@ -30,6 +30,10 @@ CHANGE_HISTORY = [
          "Copied grid from atmoschem"),
 	("1.0.1", "2018-04-04", "David Hassell (NCAS)",
          "Replaced some 'occurences of str' with 'cs-str' and 'l-str'"),
+	("1.0.2", "2018-04-10", "David Hassell (NCAS)",
+         "Changed cardinality of is_adaptive_grid to 1.1, and fixed typos"),
+        ("1.0.2", "2018-04-04", "David Hassell",
+            "Removed some l-str"),
     ]
 
 # --------------------------------------------------------------------

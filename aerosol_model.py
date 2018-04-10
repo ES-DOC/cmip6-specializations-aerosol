@@ -23,17 +23,17 @@ DETAILS['toplevel'] = {
     'description': 'Top level aerosol model properties',
     'properties': [
         ('overview', 'l-str', '1.1',
-            'Overview of atmosperic aerosol model'),
+            'Overview of atmospheric aerosol model'),
         ('processes', 'ENUM:model_processes', '1.N',
-            'Processes included in the Aerosol model.'),
+            'Processes included in the aerosol model.'),
         ('coupling', 'ENUM:coupling', '0.N',
-            'Other model components coupled to the Aerosol model'),
+            'Other model components coupled to the aerosol model'),
         ('gas_phase_precursors', 'ENUM:gas_phase_precursors', '1.N',
-            'List of gas phase aerosol precursors.'),
+            'Gas phase aerosol precursors.'),
         ('scheme_type', 'ENUM:scheme_types', '1.N',
-             'Type(s) of aerosol scheme used by the aerosols model (potentially multiple: some species may be covered by one type of aerosol scheme and other species covered by another type).'),
+             'Type(s) of aerosol scheme used by the aerosol model (potentially multiple: some species may be covered by one type of aerosol scheme and other species covered by another type).'),
         ('bulk_scheme_species', 'ENUM:species', '1.N',
-             'List of species covered by the bulk scheme.'),
+             'Species covered by the bulk scheme.'),
     ]
 }
 
@@ -41,7 +41,7 @@ DETAILS['toplevel'] = {
 # ENUMERATIONS
 # --------------------------------------------------------------------
 ENUMERATIONS['model_processes'] = {
-    'description': 'Processes included in the Aerosol model.',
+    'description': 'Processes included in the aerosol model.',
     'is_open': False,
     'members': [
         ('Dry deposition', None),
@@ -61,7 +61,7 @@ ENUMERATIONS['model_processes'] = {
 }
 
 ENUMERATIONS['coupling'] = {
-    'description':'Other model components coupled to the Aerosol model.',
+    'description':'Other model components coupled to the aerosol model.',
     'is_open': True,
     'members':[
         ('Radiation', None),
@@ -75,7 +75,7 @@ ENUMERATIONS['coupling'] = {
 }
 
 ENUMERATIONS['gas_phase_precursors'] = {
-    'description': 'List of gas phase aerosol precursors.',
+    'description': 'Gas phase aerosol precursors.',
     'is_open': True,
     'members':[
         ('DMS', None),
@@ -100,7 +100,7 @@ ENUMERATIONS['scheme_types'] = {
 }
 
 ENUMERATIONS['species'] = {
-    'description':'List of species.',
+    'description':'Aerosol species.',
     'is_open': True,
     'members':[
         ('Sulphate', None),

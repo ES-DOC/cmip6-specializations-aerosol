@@ -24,7 +24,7 @@ DETAILS['toplevel'] = {
     'properties': [
         ('scheme_scope', 'ENUM:scheme_scopes', '1.N',
             'Atmospheric domains covered by the aerosol model'),
-        ('basic_approximations', 'l-str', '1.1',
+        ('basic_approximations', 'str', '1.1',
             'Basic approximations made in the aerosol model',),
         ('prognostic_variables_form', 'ENUM:prognostic_vars_types', '1.N',
             'Prognostic variables in the aerosol model'),
@@ -61,11 +61,11 @@ DETAILS['meteorological_forcings'] = {
     'description': '',
     'properties' : [
         ('variables_3D', 'cs-str', '0.1',
-            'Three dimensionsal forcing variables, e.g. U, V, W, T, Q, P, conventive mass flux'),
+            'Three dimensional forcing variables, e.g. U, V, W, T, Q, P, conventive mass flux'),
         ('variables_2D', 'cs-str', '0.1',
-            'Two dimensionsal forcing variables, e.g. land-sea mask definition'),
+            'Two dimensional forcing variables, e.g. land-sea mask definition'),
         ('frequency', 'int', '0.1',
-            'Frequency with which meteological forcings are applied (in seconds).'),
+            'Frequency with which meteorological forcings are applied (in seconds).'),
         ]
 }
 
@@ -73,7 +73,7 @@ DETAILS['meteorological_forcings'] = {
 # SUB-PROCESS: RESOLUTION: The resolution of the grid.
 # --------------------------------------------------------------------
 DETAILS['resolution'] = {
-    'description': 'Resolution in the aersosol model grid',
+    'description': 'Resolution in the aerosol model grid',
     'properties': [
         ('name', 'str', '1.1',
              "This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc."),
@@ -83,8 +83,8 @@ DETAILS['resolution'] = {
              "Total number of horizontal (XY) points (or degrees of freedom) on computational grid."),
         ('number_of_vertical_levels', 'int', '0.1',
              "Number of vertical levels resolved on computational grid."),
-        ('is_adaptive_grid', 'bool', '0.1',
-             "Default is False. Set true if grid resolution changes during execution."),
+        ('is_adaptive_grid', 'bool', '1.1',
+             "Set to true if the grid resolution changes during execution."),
     ],
 }
 
@@ -95,14 +95,11 @@ DETAILS['tuning_applied'] = {
     'description': 'Tuning methodology for aerosol model',
     'properties': [
         ('description', 'l-str', '1.1',
-             "General overview description of tuning: explain and motivate the main targets and metrics retained. &"
-             "Document the relative weight given to climate performance metrics versus process oriented metrics, &"
-             "and on the possible conflicts with parameterization level tuning. In particular describe any struggle &"
-             "with a parameter value that required pushing it to its limits to solve a particular model deficiency."),
+             "General overview description of tuning: explain and motivate the main targets and metrics retained. Document the relative weight given to climate performance metrics versus process oriented metrics, and on the possible conflicts with parameterization level tuning. In particular describe any struggle with a parameter value that required pushing it to its limits to solve a particular model deficiency."),
         ('global_mean_metrics_used', 'cs-str', '0.1',
-             "List set of metrics of the global mean state used in tuning model/component"),
+             "List of metrics of the global mean state used in tuning model/component"),
         ('regional_metrics_used', 'cs-str', '0.1',
-             "List of regional metrics of mean state used in tuning model/component"),
+             "List of metrics of regional mean state used in tuning model/component"),
         ('trend_metrics_used', 'cs-str', '0.1',
              "List observed trend metrics used in tuning model/component"),
     ]
@@ -139,7 +136,7 @@ ENUMERATIONS['prognostic_vars_types'] = {
     'is_open': True,
     'members': [
         ('3D mass/volume ratio for aerosols', None),
-        ('3D number concenttration for aerosols', None),
+        ('3D number concentration for aerosols', None),
     ]
 }
 

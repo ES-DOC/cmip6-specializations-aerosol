@@ -25,7 +25,7 @@ DETAILS['toplevel'] = {
         ('method', 'ENUM:emissions_methods', '1.N',
             'Method used to define aerosol species (several methods allowed because the different species may not use the same method).'),
         ('sources', 'ENUM:surface_source_types', '0.N',
-             'Sources of the aerosol species are taken into account in the emissions scheme'),
+            'Sources of the aerosol species are taken into account in the emissions scheme'),
         ('prescribed_climatology', 'ENUM:prescribed_climatology_type', '0.1',
             'Specify the climatology type for aerosol emissions'),
         ('prescribed_climatology_emitted_species', 'cs-str', '0.1',
