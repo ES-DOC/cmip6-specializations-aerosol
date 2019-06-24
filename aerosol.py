@@ -33,8 +33,13 @@ CHANGE_HISTORY = [
 	("1.0.2", "2018-04-10", "David Hassell (NCAS)",
          "Changed cardinality of is_adaptive_grid to 1.1, and fixed typos"),
         ("1.0.2", "2018-04-04", "David Hassell",
-            "Removed some l-str"),
-    ]
+         "Removed some l-str"),
+        ("1.0.3", "2019-06-24", "David Hassell",
+         "Fixed some typos"),
+        ("1.0.4", "2019-06-24", "David Hassell",
+         "Added ENUM entries of 'Uses atmospheric dynamics transport scheme' and 'Uses atmospheric physics turbulence scheme'"),
+        ("1.0.5", "2019-06-24", "David Hassell",
+         "Removed DETAILS['resolution'] from aerosol_key_properties.py because it was accidentally duplcated from aerosol_grid.py"), ]
 
 # --------------------------------------------------------------------
 # CMIP5_MAPPINGS_SYNCED_AT: Latest version that has been synced with CMIP5 mappings.

@@ -20,7 +20,7 @@ DESCRIPTION = 'Aerosol optical and radiative properties'
 # SUB-PROCESS: Absorption
 # --------------------------------------------------------------------
 DETAILS['absorption'] = {
-    'description': 'Absortion properties in aerosol scheme',
+    'description': 'Absorption properties in aerosol scheme',
     'properties': [
         ('black_carbon', 'float', '0.1',
              'Absorption mass coefficient of black carbon at 550nm (if non-absorbing enter 0)'),

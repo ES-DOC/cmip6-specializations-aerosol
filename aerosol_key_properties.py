@@ -61,31 +61,12 @@ DETAILS['meteorological_forcings'] = {
     'description': '',
     'properties' : [
         ('variables_3D', 'cs-str', '0.1',
-            'Three dimensional forcing variables, e.g. U, V, W, T, Q, P, conventive mass flux'),
+            'Three dimensional forcing variables, e.g. U, V, W, T, Q, P, convective mass flux'),
         ('variables_2D', 'cs-str', '0.1',
             'Two dimensional forcing variables, e.g. land-sea mask definition'),
         ('frequency', 'int', '0.1',
             'Frequency with which meteorological forcings are applied (in seconds).'),
         ]
-}
-
-# --------------------------------------------------------------------
-# SUB-PROCESS: RESOLUTION: The resolution of the grid.
-# --------------------------------------------------------------------
-DETAILS['resolution'] = {
-    'description': 'Resolution in the aerosol model grid',
-    'properties': [
-        ('name', 'str', '1.1',
-             "This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc."),
-        ('canonical_horizontal_resolution', 'str', '0.1',
-             "Expression quoted for gross comparisons of resolution, eg. 50km or 0.1 degrees etc."),
-        ('number_of_horizontal_gridpoints', 'int', '0.1',
-             "Total number of horizontal (XY) points (or degrees of freedom) on computational grid."),
-        ('number_of_vertical_levels', 'int', '0.1',
-             "Number of vertical levels resolved on computational grid."),
-        ('is_adaptive_grid', 'bool', '1.1',
-             "Set to true if the grid resolution changes during execution."),
-    ],
 }
 
 # --------------------------------------------------------------------
